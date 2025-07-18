@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,13 +10,18 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="asset/style/style.css" />
     <title>None-Practice04</title>
   </head>
   <body>
     <main>
-      <section class="profile-area" data-aos="fade-down" data-aos-duration="800" data-aos-offset="100">
+      <section
+        class="profile-area"
+        data-aos="fade-down"
+        data-aos-duration="800"
+        data-aos-offset="100"
+      >
         <div class="container">
           <div class="profile-content">
             <div class="profile">
@@ -57,10 +62,12 @@
             </div>
             <div class="profile-action">
               <div class="page-mode">
-                <span
-                  ><i class="fa-solid fa-toggle-on"></i>&nbsp;&nbsp;Dark
-                  Mode</span
-                >
+                <button
+                  type="button"
+                  class="btn-theme"
+                  data-theme-toggle
+                  aria-label="Change to light theme">
+                </button>
               </div>
               <button type="button" class="btncontact">
                 <span
@@ -76,7 +83,12 @@
         <div class="container">
           <div class="row">
             <div class="col-8">
-              <div class="news-about" data-aos="fade-up" data-aos-duration="800" data-aos-offset="100">
+              <div
+                class="news-about"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-offset="100"
+              >
                 <h3>About Me</h3>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -94,7 +106,12 @@
                   architecto, quaerat iste reiciendis assumenda?
                 </p>
               </div>
-              <div class="news-projects" data-aos="fade-up" data-aos-duration="800" data-aos-offset="100">
+              <div
+                class="news-projects"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-offset="100"
+              >
                 <div class="project-main">
                   <h3>Lastest Projects</h3>
                   <div class="project-img">
@@ -121,7 +138,12 @@
                     </button>
                   </div>
                 </div>
-                <div class="project-body" data-aos="fade-up" data-aos-duration="800" data-aos-offset="200">
+                <div
+                  class="project-body"
+                  data-aos="fade-up"
+                  data-aos-duration="800"
+                  data-aos-offset="200"
+                >
                   <article>
                     <div class="article-image">
                       <img src="asset/image/project-1.png" alt="" />
@@ -204,11 +226,17 @@
               </div>
             </div>
             <div class="col-4">
-              <aside data-aos="fade-up" data-aos-duration="800" data-aos-offset="100">
+              <aside
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-offset="100"
+              >
                 <ul class="contact-list">
                   <li class="contact-item">
-                    <span class="title"><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;San
-                    Franciso, US</span>
+                    <span class="title"
+                      ><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;San
+                      Franciso, US</span
+                    >
                   </li>
                   <li class="contact-item">
                     <i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;<a href=""
@@ -216,11 +244,19 @@
                     >
                   </li>
                   <li class="contact-item">
-                    <i class="fa-solid fa-link"></i>&nbsp;&nbsp;<a href="https://youtu.be/iqGAW57EudQ?si=PfeO7YHT9WN78d0P" target="_blank">https://www.example.com</a>
+                    <i class="fa-solid fa-link"></i>&nbsp;&nbsp;<a
+                      href="https://youtu.be/iqGAW57EudQ?si=PfeO7YHT9WN78d0P"
+                      target="_blank"
+                      >https://www.example.com</a
+                    >
                   </li>
                 </ul>
               </aside>
-              <aside data-aos="fade-up" data-aos-duration="800" data-aos-offset="100">
+              <aside
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-offset="100"
+              >
                 <div class="aside-skill">
                   <h3>Skills</h3>
                   <p>
@@ -279,25 +315,36 @@
                   ></a
                 >
               </aside>
-              <aside data-aos="fade-up" data-aos-duration="800" data-aos-offset="100">
+              <aside
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-offset="100"
+              >
                 <div class="aside-testimonials">
                   <h3>Testimonials</h3>
                   <p>
-                    <i class="fa-solid fa-quote-left"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, eius. Facere quod adipisci omnis, voluptatibus similique necessitatibus dolores provident magni.
+                    <i class="fa-solid fa-quote-left"></i>Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit. Repellendus, eius. Facere
+                    quod adipisci omnis, voluptatibus similique necessitatibus
+                    dolores provident magni.
                   </p>
-                     <span class="info">
-                      Tim Adams
-                       <span class="info-light">Curabitur Commodo</span>
-                      </span>
-                      <a href="" class="find-more-action"
-                  ><span
-                    ><i class="fa-solid fa-pen-to-square"></i>&nbsp;&nbsp;More
-                    on GitHub</span
-                  ></a
-                >
+                  <span class="info">
+                    Tim Adams
+                    <span class="info-light">Curabitur Commodo</span>
+                  </span>
+                  <a href="" class="find-more-action"
+                    ><span
+                      ><i class="fa-solid fa-pen-to-square"></i>&nbsp;&nbsp;More
+                      on GitHub</span
+                    ></a
+                  >
                 </div>
               </aside>
-              <aside data-aos="fade-up" data-aos-duration="800" data-aos-offset="100">
+              <aside
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-offset="100"
+              >
                 <div class="aside-edu">
                   <h3>Education</h3>
                   <ul class="edu-list progress-list">
@@ -328,7 +375,11 @@
                   </ul>
                 </div>
               </aside>
-              <aside data-aos="fade-up" data-aos-duration="800" data-aos-offset="100">
+              <aside
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-offset="100"
+              >
                 <div class="aside-language">
                   <h3>Language</h3>
                   <ul class="language-list progress-list">
@@ -366,6 +417,7 @@
         </div>
       </section>
     </main>
+
     <footer>
       <div class="container">
         <div class="footer-content">
@@ -375,9 +427,97 @@
     </footer>
   </body>
 
-
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
-  AOS.init();
-</script>
+    AOS.init();
+  </script>
+    <script>
+      /**
+       * Utility function to calculate the current theme setting.
+       * Look for a local storage value.
+       * Fall back to system setting.
+       * Fall back to light mode.
+       */
+      function calculateSettingAsThemeString({
+        localStorageTheme,
+        systemSettingDark,
+      }) {
+        if (localStorageTheme !== null) {
+          return localStorageTheme;
+        }
+
+        if (systemSettingDark.matches) {
+          return "dark";
+        }
+
+        return "light";
+      }
+
+      /**
+       * Utility function to update the button text and aria-label.
+       */
+      function updateButton({ buttonEl, isDark }) {
+        const newCta = isDark
+          ? '<i class="fa-solid fa-sun btnlight"></i>'
+          : '<i class="fa-solid fa-moon btndark"></i>';
+
+        // It's better to set a descriptive aria-label like 'Dark Mode' or 'Light Mode'
+        buttonEl.setAttribute(
+          "aria-label",
+          isDark ? "Switch to light mode" : "Switch to dark mode"
+        );
+
+        buttonEl.innerHTML = newCta;
+      }
+
+      /**
+       * Utility function to update the theme setting on the html tag
+       */
+      function updateThemeOnHtmlEl({ theme }) {
+        document.querySelector("html").setAttribute("data-theme", theme);
+      }
+
+      /**
+       * On page load:
+       */
+
+      /**
+       * 1. Grab what we need from the DOM and system settings on page load
+       */
+      const button = document.querySelector("[data-theme-toggle]");
+      const localStorageTheme = localStorage.getItem("theme");
+      const systemSettingDark = window.matchMedia(
+        "(prefers-color-scheme: dark)"
+      );
+
+      /**
+       * 2. Work out the current site settings
+       */
+      let currentThemeSetting = calculateSettingAsThemeString({
+        localStorageTheme,
+        systemSettingDark,
+      });
+
+      /**
+       * 3. Update the theme setting and button text accoridng to current settings
+       */
+      updateButton({
+        buttonEl: button,
+        isDark: currentThemeSetting === "dark",
+      });
+      updateThemeOnHtmlEl({ theme: currentThemeSetting });
+
+      /**
+       * 4. Add an event listener to toggle the theme
+       */
+      button.addEventListener("click", (event) => {
+        const newTheme = currentThemeSetting === "dark" ? "light" : "dark";
+
+        localStorage.setItem("theme", newTheme);
+        updateButton({ buttonEl: button, isDark: newTheme === "dark" });
+        updateThemeOnHtmlEl({ theme: newTheme });
+
+        currentThemeSetting = newTheme;
+      });
+    </script>
 </html>
