@@ -225,6 +225,10 @@ img {
   width: 35%;
   border-radius: 8px;
   overflow: hidden;
+  background-color: blue;
+}
+.news-area .project-body .article-image a{
+  display: block;
 }
 .news-area .project-body .article-content{
   margin-left: 20px;
@@ -232,6 +236,9 @@ img {
 }
 .news-area .project-body .article-content h4{
   text-align: start;
+}
+.news-area .project-body .article-content h4:hover{
+  color: #4aca4a;
 }
 .news-area .project-body .article-content p{
   margin: 8px 0px;
